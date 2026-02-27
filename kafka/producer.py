@@ -10,7 +10,7 @@ producer = KafkaProducer(
     value_serializer=lambda v: v.encode('utf-8') 
 )
 
-topic_name = 'events_raw'
+topic_name = 'topic_csv'
 data_file = os.path.join(os.path.dirname(__file__), '..', 'data', 'events_dirty.json')
 
 sent_count = 0
