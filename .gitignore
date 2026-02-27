@@ -1,0 +1,4 @@
+spark_checkpoints/
+spark_output/
+venv/
+
